@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Annual Report 2024</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="logo-container">
+          <img src="/vite.svg" alt="Petros Logo" class="logo">
+          <span class="report-label">Relatório Anual <span class="year">2024</span></span>
+        </div>
+        <div class="nav-links">
+          <a href="#destaques">Destaques</a>
+          <a href="#sobre">Sobre o relatório</a>
+          <a href="#capitulos">Capítulos</a>
+          <button class="download-btn">Baixar o relatório</button>
+          <button class="menu-btn" aria-label="Menu" aria-expanded="false">☰</button>
+        </div>
+      </nav>
+      
+      <div class="mega-menu">
+        <div class="mega-menu-content">
+          <div class="mega-menu-section">
+            <h3>Destaques</h3>
+            <ul>
+              <li><a href="#resultados">Resultados</a></li>
+              <li><a href="#investimentos">Investimentos</a></li>
+              <li><a href="#beneficios">Benefícios</a></li>
+            </ul>
+          </div>
+          <div class="mega-menu-section">
+            <h3>Sobre o relatório</h3>
+            <ul>
+              <li><a href="#metodologia">Metodologia</a></li>
+              <li><a href="#escopo">Escopo</a></li>
+              <li><a href="#materialidade">Materialidade</a></li>
+            </ul>
+          </div>
+          <div class="mega-menu-section">
+            <h3>Capítulos</h3>
+            <ul>
+              <li><a href="#governanca">Governança</a></li>
+              <li><a href="#estrategia">Estratégia</a></li>
+              <li><a href="#desempenho">Desempenho</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="hero">
+      <div class="hero-content">
+        <h1>
+          <span class="title-main">RELATÓRIO</span>
+          <span class="title-sub">ANUAL <span class="year-badge">2024</span></span>
+        </h1>
+      </div>
+      <div class="scroll-indicator">
+        <div class="arrow-circle">
+          <span class="arrow">↓</span>
+        </div>
+        <span class="scroll-text">Continue explorando</span>
+      </div>
+    </main>
+
+    <script>
+      document.querySelector('.menu-btn').addEventListener('click', function() {
+        const megaMenu = document.querySelector('.mega-menu');
+        const isExpanded = this.getAttribute('aria-expanded') === 'true';
+        
+        this.setAttribute('aria-expanded', !isExpanded);
+        megaMenu.classList.toggle('active');
+        this.textContent = isExpanded ? '☰' : '✕';
+      });
+    </script>
+  </body>
+</html>
