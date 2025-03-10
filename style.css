@@ -187,7 +187,7 @@ body {
 }
 
 .list-mega-menu{
-  width: 90%;
+  width: 95%;
   border-top: 1px solid var(--accent-color);
   border-left: 1px solid var(--accent-color);
   border-radius: 20px 0 0 0;
@@ -511,4 +511,598 @@ body {
   .cards-grid {
       grid-template-columns: 1fr;
   }
+}
+
+
+.section-destaques{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.destaques {
+  max-width: var(--container-width);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 56px;
+  padding: 120px 75px;
+  position: relative;
+}
+
+.destaques .header-destaques {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  background-color: transparent;
+}
+
+.destaques .header-container {
+  display: flex;
+  flex-direction: column;
+  width: 473px;
+  align-items: flex-start;
+  gap: 40px;
+  position: relative;
+}
+
+.destaques .title {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Sora", Helvetica;
+  font-weight: 500;
+  color: #021832;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: 48px;
+}
+
+.destaques .lines {
+  position: relative;
+  width: 477px;
+  height: 8px;
+  margin-bottom: -4.00px;
+  margin-left: -4.00px;
+}
+
+.destaques .subtitle {
+  position: relative;
+  width: 384px;
+  margin-top: -1.00px;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 400;
+  color: #495452;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.controls{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.destaques .carousel-control {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 50px;
+  position: relative;
+  align-self: stretch;
+  width: 384px;
+  flex: 0 0 auto;
+}
+
+.destaques .carousel-dots-bar {
+  position: relative;
+  width: 180px;
+  height: 4px;
+}
+
+.destaques .arrows {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.destaques .arrow-control {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+
+.destaques .carousel {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  top: 56px;
+  position: relative;
+  flex: 0 0 auto;
+  overflow-x: scroll;
+}
+
+.destaques .carousel::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+.destaques .card-destaques {
+  display: flex;
+  flex-direction: column;
+  min-height: 360px;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 32px 0px;
+  position: relative;
+  align-self: stretch;
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 1px solid;
+  border-color: #a1c3bd;
+}
+
+.content-before::before{
+  content: '';
+  height: 60px;
+  width: 8px;
+  left: -5px; 
+  border-radius: 100px;
+  background-color: #A1C3BD;
+  position: absolute; 
+}
+
+.destaques .ICON {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 4px 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.destaques .icones-destaques {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.destaques .leia-mais {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 312px;
+  left: 24px;
+}
+
+.destaques .iconoir-nav-arrow-up {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.destaques .text-wrapper {
+  position: relative;
+  width: fit-content;
+  font-family: "Sora", Helvetica;
+  font-weight: 400;
+  color: #2a6ba7;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 21px;
+  white-space: nowrap;
+}
+
+.destaques .content-before {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 24px;
+}
+
+.destaques .before {
+  position: relative;
+  align-self: stretch;
+  width: 1px;
+}
+
+.destaques .content-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.destaques .card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.destaques .div {
+  position: relative;
+  font-family: "Sora", Helvetica;
+  font-weight: 500;
+  color: #de8e28;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.destaques .subtitle-2 {
+  position: relative;
+  font-family: "Sora", Helvetica;
+  font-weight: 700;
+  color: #de8e28;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.destaques .description {
+  position: absolute;
+  width: 232px;
+  top: 204px;
+  left: 0;
+  opacity: 0;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 400;
+  color: #495452;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20.8px;
+}
+
+.destaques .ICONE {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 7px 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+.progress {
+  display: block;
+  width: 100%;
+  height: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  
+  background-color: #f5f5f5;
+  background-image: linear-gradient(to right, var(--secondary-color), var(--secondary-color));
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  
+  transition: background-size .4s ease-in-out;
+}
+
+.slick-slide {
+  text-align: center;
+  color: #419be0;
+  background: white;
+  margin: 10px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+
+.section-relatorio{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.relatorio {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 56px;
+  position: relative;
+}
+
+.sobre-o-relatorio {
+  max-width: var(--container-width);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.sobre-o-relatorio .section-foto {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 88px 75px;
+  flex: 0 0 auto;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  background-image: url(https://c.animaapp.com/NpTpOu20/img/section-foto.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.sobre-o-relatorio .sobre-o-relatrio {
+  display: flex;
+  flex-direction: column;
+  width: 558px;
+  align-items: flex-start;
+  gap: 178px;
+  padding: 0px 0px 0px 32px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sobre-o-relatorio .title {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Sora", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: 48px;
+}
+
+.sobre-o-relatorio .description {
+  position: relative;
+  align-self: stretch;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.sobre-o-relatorio .lines {
+  position: absolute;
+  width: 419px;
+  height: 669px;
+  top: 143px;
+  left: 74px;
+}
+
+.sobre-o-relatorio .section-resultados {
+  height: 112px;
+  align-items: center;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.sobre-o-relatorio .frame {
+  display: flex;
+  width: 805px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 32px 32px 32px 108px;
+  position: relative;
+  background: linear-gradient(180deg, rgb(2, 24, 50) 0%, rgb(42, 107, 167) 100%);
+}
+
+.sobre-o-relatorio .text-wrapper {
+  position: relative;
+  width: fit-content;
+  font-family: "Sora", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.sobre-o-relatorio .div {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.sobre-o-relatorio .line {
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  height: 1px;
+  object-fit: cover;
+}
+
+.sobre-o-relatorio .img {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+
+.sobre-o-relatorio .video {
+  position: relative;
+  width: 485px;
+  height: 275px;
+  margin-top: -81.50px;
+  margin-bottom: -81.50px;
+  object-fit: cover;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+.section-capitulos{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.capiulos {
+  position: relative;
+  width: 1216px;
+  height: 1699px;
+}
+
+.capiulos .overlap-group {
+  position: absolute;
+  width: 1217px;
+  height: 261px;
+  top: 0;
+  left: 74px;
+}
+
+.capiulos .veja-todos-os-cap {
+  position: absolute;
+  width: 460px;
+  top: 119px;
+  left: 104px;
+  font-family: "Sora", Helvetica;
+  font-weight: 500;
+  color: #021832;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: 62.4px;
+}
+
+.capiulos .lines {
+  position: absolute;
+  width: 1217px;
+  height: 261px;
+  top: 0;
+  left: 0;
+}
+
+.capiulos .fa-a-o-download-de {
+  position: absolute;
+  width: 310px;
+  top: 135px;
+  left: 906px;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 400;
+  color: #495452;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.capiulos .frame {
+  display: inline-flex;
+  flex-wrap: wrap;
+  max-width: 1216px;
+  align-items: flex-start;
+  gap: 48px 32px;
+  position: absolute;
+  top: 325px;
+  left: 75px;
+}
+
+.capiulos .card-capitulo {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+}
+
+.capiulos .image {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+}
+
+.capiulos .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  font-family: "Sora", Helvetica;
+  font-weight: 600;
+  color: #2a6ba7;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.capiulos .foto {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 340px;
+  background-image: url(https://c.animaapp.com/M0I0OF27/img/image-2@2x.png);
+  background-size: 100% 100%;
+}
+
+.capiulos .div {
+  display: flex;
+  flex-direction: column;
+  width: 139px;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  top: 158px;
+  left: 70px;
+}
+
+.capiulos .iconoir-download {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.capiulos .text-wrapper-2 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Sora", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.capiulos .rectangle {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 340px;
 }
